@@ -1,0 +1,41 @@
+- name: cppcheck-action
+  # You may pin to the exact commit or the version.
+  # uses: deep5050/cppcheck-action@1c1883644278ced5cc18c37e32eb26337e340a9e
+  uses: deep5050/cppcheck-action@v1.2
+  with:
+    # GITHUB_TOKEN secret < automatically provided by Github , you don't need to set up >
+    github_token: 
+    # GitHub account name
+    github_username: # optional, default is cppcheck-action
+    # GitHub account email
+    github_email: # optional, default is cppcheck-action@master
+    # custom commit message
+    commit_msg: # optional, default is cppcheck report added or updated
+    # Show information messages when library files have info.
+    check_library: # optional, default is disable
+    # Print preprocessor output on stdout and don't do any further processing.
+    skip_preprocessor: # optional, default is disable
+    # Enable additional checks
+    enable: # optional, default is all
+    # Give a source file or source file directory to exclude from the check
+    exclude_check: # optional, default is disable
+    #  Allow that Cppcheck reports even though the analysis is inconclusive.
+    inconclusive: # optional, default is enable
+    # Enable inline suppressions
+    inline_suppression: # optional, default is disable
+    # Forces cppcheck to check all files as the given language
+    force_language: # optional, default is disable
+    # Max depth in whole program analysis
+    max_ctu_depth: # optional, default is disable
+    # Specifies platform specific types and sizes
+    platform: # optional, default is disable
+    #  files where the result to be dumped
+    output_file: # optional, default is cppcheck_report.txt
+    # Branch that the badge will target. Defaults to the current branch.
+    target_branch: # optional, default is 
+    # Branch that the action will target on pull_request. Defaults to GITHUB_BASE_REF.
+    pull_request_branch: # optional, default is 
+    # Repository that the report will be pushed on. Defaults to the current repository.
+    target_repository: # optional, default is 
+    # Repository that the action will target on pull_request. Defaults to TARGET_REPOSITORY
+    pull_request_repository: # optional, default is 
