@@ -1,0 +1,80 @@
+[xt_fcgi.c:2293]: (style) Boolean result is used in bitwise operation. Clarify expression with parentheses.
+[xt_fcgi.c:1497]: (style) Condition 'count<=0' is always true
+[xt_fcgi.c:2203]: (style) Condition 'count<=0' is always true
+[xt_fcgi.c:58]: (warning) %d in format string (no. 4) requires 'int' but the argument type is 'unsigned int'.
+[xt_fcgi.c:2599]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'json_t *'.
+[xt_fcgi.c:2892]: (warning) %x in format string (no. 1) requires 'unsigned int *' but the argument type is 'char *'.
+[xt_fcgi.c:2892]: (warning) %x in format string (no. 2) requires 'unsigned int *' but the argument type is 'signed char *'.
+[xt_fcgi.c:2892]: (warning) %x in format string (no. 3) requires 'unsigned int *' but the argument type is 'signed char *'.
+[xt_fcgi.c:2892]: (warning) %x in format string (no. 4) requires 'unsigned int *' but the argument type is 'signed char *'.
+[xt_fcgi.c:2892]: (warning) %x in format string (no. 5) requires 'unsigned int *' but the argument type is 'signed char *'.
+[xt_fcgi.c:2892]: (warning) %x in format string (no. 6) requires 'unsigned int *' but the argument type is 'signed char *'.
+[xt_fcgi.c:3049]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'json_t *'.
+[xt_fcgi.c:414]: (style, inconclusive) Consecutive return, break, continue, goto or throw statements are unnecessary.
+[xt_fcgi.c:69]: (style) The scope of the variable 'a' can be reduced.
+[xt_fcgi.c:69]: (style) The scope of the variable 'b' can be reduced.
+[xt_fcgi.c:496]: (style) The scope of the variable 'rand_data' can be reduced.
+[xt_fcgi.c:1906]: (style) The scope of the variable 'updated' can be reduced.
+[xt_fcgi.c:1912]: (style) The scope of the variable 'turnOnOffVal' can be reduced.
+[xt_fcgi.c:1914]: (style) The scope of the variable 'eventSrcVal' can be reduced.
+[xt_fcgi.c:2013]: (style) The scope of the variable 'element' can be reduced.
+[xt_fcgi.c:2014]: (style) The scope of the variable 'labelvalid' can be reduced.
+[xt_fcgi.c:2015]: (style) The scope of the variable 'jstr' can be reduced.
+[xt_fcgi.c:2021]: (style) The scope of the variable 'indexVal' can be reduced.
+[xt_fcgi.c:2371]: (style) The scope of the variable 'element' can be reduced.
+[xt_fcgi.c:2372]: (style) The scope of the variable 'i' can be reduced.
+[xt_fcgi.c:2373]: (style) The scope of the variable 'jstr' can be reduced.
+[xt_fcgi.c:2682]: (style) The scope of the variable 'file' can be reduced.
+[xt_fcgi.c:2684]: (style) The scope of the variable 'type_str' can be reduced.
+[xt_fcgi.c:2763]: (style) The scope of the variable 'files' can be reduced.
+[xt_fcgi.c:2791]: (style) The scope of the variable 'file' can be reduced.
+[xt_fcgi.c:2792]: (style) The scope of the variable 'url' can be reduced.
+[xt_fcgi.c:2793]: (style) The scope of the variable 'result' can be reduced.
+[xt_fcgi.c:2831]: (style) The scope of the variable 'tablename' can be reduced.
+[xt_fcgi.c:2874]: (style) The scope of the variable 'invalid_mac' can be reduced.
+[xt_fcgi.c:2875]: (style) The scope of the variable 'output_file' can be reduced.
+[xt_fcgi.c:2952]: (style) The scope of the variable 'powerval' can be reduced.
+[xt_fcgi.c:3068]: (style) The scope of the variable 'tablename' can be reduced.
+[xt_fcgi.c:3122]: (style) The scope of the variable 'element' can be reduced.
+[xt_fcgi.c:698] -> [xt_fcgi.c:1131]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:1245]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:1314]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:1424]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:1459]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:1500]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:1697]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:1731]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:1794]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:2104]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:2118]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:2208]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:2372]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:2828]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:3065]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:698] -> [xt_fcgi.c:3153]: (style) Local variable i shadows outer variable
+[xt_fcgi.c:263]: (style) Variable 'status' is assigned a value that is never used.
+[xt_fcgi.c:295]: (style) Variable 'status' is assigned a value that is never used.
+[xt_fcgi.c:396]: (style) Unused variable: digest
+[xt_fcgi.c:1683]: (style) Unused variable: start
+[xt_fcgi.c:1684]: (style) Unused variable: end
+[xt_fcgi.c:1718]: (style) Unused variable: start
+[xt_fcgi.c:1719]: (style) Unused variable: end
+[xt_fcgi.c:2137]: (style) Variable 'deviceID' is assigned a value that is never used.
+[xt_fcgi.c:2138]: (style) Unused variable: element
+[xt_fcgi.c:2139]: (style) Variable 'len' is assigned a value that is never used.
+[xt_fcgi.c:2154]: (style) Unused variable: octets
+[xt_fcgi.c:2159]: (style) Variable 'valid' is assigned a value that is never used.
+[xt_fcgi.c:2324]: (style) Variable 'deviceID' is assigned a value that is never used.
+[xt_fcgi.c:2336]: (style) Variable 'ssidbuffer' is assigned a value that is never used.
+[xt_fcgi.c:2348]: (style) Variable 'pwbuffer' is assigned a value that is never used.
+[xt_fcgi.c:2688]: (style) Unused variable: jstr
+[xt_fcgi.c:2767]: (style) Unused variable: jstr
+[xt_fcgi.c:2796]: (style) Unused variable: jstr
+[xt_fcgi.c:2828]: (style) Unused variable: i
+[xt_fcgi.c:2872]: (style) Unused variable: jstr
+[xt_fcgi.c:3065]: (style) Unused variable: i
+[xt_fcgi.c:1487] -> [xt_fcgi.c:1497]: (style) The expression 'count <= 0' is always true.
+[xt_fcgi.c:1850]: (style) Variable 'result' is assigned a value that is never used.
+[xt_fcgi.c:3168]: (style) Unused variable: len
+[xt_fcgi.c:612]: (style) The function 'xt_fcgi_master_auth_patch' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
