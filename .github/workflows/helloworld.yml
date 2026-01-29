@@ -6,7 +6,7 @@ on:
 jobs:
   hello:
     name: Hello World Job
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
       - name: Echo Hello World
         run: echo "Hello World" > hello.txt
